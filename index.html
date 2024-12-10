@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Project UAS</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h3 class="mb-4">Project UAS Kriptografi</h3>
+      <form id="encryption-form">
+        <div class="mb-3">
+          <label for="plaintext" class="form-label">Plaintext</label>
+          <input type="text" class="form-control" id="plaintext" placeholder="Masukkan teks" required>
+        </div>
+        <div class="mb-3">
+          <label for="key" class="form-label">Key</label>
+          <input type="text" class="form-control" id="key" placeholder="Masukkan kunci" maxlength="4" minlength="4" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Proses</button>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
